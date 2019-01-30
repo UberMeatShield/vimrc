@@ -119,6 +119,10 @@ nnoremap <silent> <leader>z :Goyo<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:go_fmt_command = "goimports"
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => typescript-vim
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:typescript_compiler_options = " -t ES5 --experimentalDecorators --module commonjs "
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Syntastic (syntax checker)

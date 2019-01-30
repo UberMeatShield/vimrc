@@ -66,6 +66,7 @@ nmap <leader>w :w!<cr>
 command W w !sudo tee % > /dev/null
 
 
+set pastetoggle=<F10>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -104,7 +105,7 @@ set whichwrap+=<,>,h,l
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
-  set mouse=a
+  " set mouse=a "
 endif
 
 " Ignore case when searching
@@ -183,8 +184,6 @@ set noswapfile
 " Use spaces instead of tabs
 set expandtab
 
-" Be smart when using tabs ;)
-set smarttab
 
 " 1 tab == 4 spaces
 set shiftwidth=4
